@@ -46,23 +46,23 @@ export const enNavbarConfig = navbar([
       },
     ],
   },
-  {
-    text: "Community",
-    icon: "group",
-    prefix: "/community/",
-    children: [
-      {
-        text: "Community",
-        icon: "group",
-        link: "",
-        activeMatch: "^/community/$",
-      },
-      {
-        text: "Community",
-        children: ["code-of-conduct", "duties-and-rigths"],
-      },
-    ],
-  },
+  // {
+  //   text: "Community",
+  //   icon: "group",
+  //   prefix: "/community/",
+  //   children: [
+  //     {
+  //       text: "Community",
+  //       icon: "group",
+  //       link: "",
+  //       activeMatch: "^/community/$",
+  //     },
+  //     {
+  //       text: "Community",
+  //       children: ["code-of-conduct", "duties-and-rigths"],
+  //     },
+  //   ],
+  // },
   {
     text: "Documentation",
     icon: "creative",
@@ -154,30 +154,7 @@ export const enNavbarConfig = navbar([
         children: ["docker", "helm", "operator", "binary"],
       },
     ],
-  },
-  {
-    text: "Foundation",
-    icon: "software",
-    prefix: "/foundation/",
-    children: [
-      {
-        text: "Foundation",
-        icon: "software",
-        link: "",
-        activeMatch: "^/foundation/$",
-      },
-      {
-        text: "How To",
-        children: [
-          "how-to-contribute",
-          "membership",
-          "board",
-          "statutes",
-          "sponsors",
-        ],
-      },
-    ],
-  },
+  }
 ]);
 
 export const zhNavbarConfig = navbar([
