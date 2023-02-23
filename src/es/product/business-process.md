@@ -1,5 +1,5 @@
 ---
-title: Proceso de negocio de ADempiere
+title: Procesos de Negocio
 category: Producto
 star: 9
 sticky: 9

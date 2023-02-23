@@ -1,5 +1,5 @@
 ---
-title: ADempiere Business Process
+title: Business Process
 category: Product
 star: 9
 sticky: 9
