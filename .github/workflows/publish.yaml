@@ -98,7 +98,7 @@ jobs:
     steps:
       - id: check_secret_job
         run: |
-          if [[ "${{ secrets.DOCKERHUB_NAMESPACE }}" != "" && \
+          if [[ "${{ secrets.DOCKERHUB_ORG }}" != "" && \
                 "${{ secrets.DOCKERHUB_USERNAME }}" != "" && \
                 "${{ secrets.DOCKERHUB_TOKEN }}" != "" ]]; \
           then
@@ -141,8 +141,8 @@ jobs:
           file: ./build-docker/production-alpine.Dockerfile
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_NAMESPACE }}:alpine
-            ${{ secrets.DOCKERHUB_NAMESPACE }}:alpine-${{ github.event.release.tag_name }}
+            ${{ secrets.DOCKERHUB_ORG }}:alpine
+            ${{ secrets.DOCKERHUB_ORG }}:alpine-${{ github.event.release.tag_name }}
 
   # Publish docker image in Docker Hub registry to application
   push-imame-dhr:
@@ -176,5 +176,5 @@ jobs:
           file: ./build-docker/production.Dockerfile
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_NAMESPACE }}:latest
-            ${{ secrets.DOCKERHUB_NAMESPACE }}:${{ github.event.release.tag_name }}
+            ${{ secrets.DOCKERHUB_ORG }}:latest
+            ${{ secrets.DOCKERHUB_ORG }}:${{ github.event.release.tag_name }}
