@@ -98,9 +98,9 @@ jobs:
     steps:
       - id: check_secret_job
         run: |
-          if [[ "${{ secrets.DOCKERHUB_ORG }}" != "" && \
-                "${{ secrets.DOCKERHUB_USERNAME }}" != "" && \
-                "${{ secrets.DOCKERHUB_TOKEN }}" != "" ]]; \
+          if [[ "${{ secrets.DOCKER_REPO_DOCS_ON_PREMISE }}" != "" && \
+                "${{ secrets.DOCKER_USERNAME }}" != "" && \
+                "${{ secrets.DOCKER_TOKEN }}" != "" ]]; \
           then
             echo "Secrets to use a container registry are configured in the repo"
             echo "is_have_secrets=true" >> $GITHUB_OUTPUT
@@ -131,8 +131,8 @@ jobs:
         uses: docker/login-action@v2
         with:
           # CONFIGURE DOCKER SECRETS INTO REPOSITORY
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_TOKEN }}
 
       - name: Build and push Docker Image Alpine
         uses: docker/build-push-action@v4.0.0
@@ -141,8 +141,8 @@ jobs:
           file: ./build-docker/production-alpine.Dockerfile
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_ORG }}:alpine
-            ${{ secrets.DOCKERHUB_ORG }}:alpine-${{ github.event.release.tag_name }}
+            ${{ secrets.DOCKER_REPO_DOCS_ON_PREMISE }}:alpine
+            ${{ secrets.DOCKER_REPO_DOCS_ON_PREMISE }}:alpine-${{ github.event.release.tag_name }}
 
   # Publish docker image in Docker Hub registry to application
   push-imame-dhr:
@@ -166,8 +166,8 @@ jobs:
         uses: docker/login-action@v2
         with:
           # CONFIGURE DOCKER SECRETS INTO REPOSITORY
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_TOKEN }}
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v4.0.0
@@ -176,5 +176,5 @@ jobs:
           file: ./build-docker/production.Dockerfile
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_ORG }}:latest
-            ${{ secrets.DOCKERHUB_ORG }}:${{ github.event.release.tag_name }}
+            ${{ secrets.DOCKER_REPO_DOCS_ON_PREMISE }}:latest
+            ${{ secrets.DOCKER_REPO_DOCS_ON_PREMISE }}:${{ github.event.release.tag_name }}
