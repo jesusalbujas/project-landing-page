@@ -1,5 +1,5 @@
 ---
-title: ADempiere® 3.9.4 Official Documentation
+title: Documentation
 category: Documentation
 star: 9
 sticky: 9
