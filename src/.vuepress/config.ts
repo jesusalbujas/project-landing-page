@@ -4,9 +4,9 @@ import theme from "./theme";
 import { path } from "@vuepress/utils";
 
 export default defineUserConfig({
-  alias: {
-    "@Releases": path.resolve(__dirname, "components/Releases.vue"),
-  },
+  // alias: {
+  //   "@Button": path.resolve(__dirname, "components/Button.vue"),
+  // },
   dest: "dist",
 
   head: [
@@ -28,11 +28,11 @@ export default defineUserConfig({
       title: "",
       description: "A official page of ADempiere community.",
     },
-    "/es/": {
-      title: "",
-      lang: "es-ES",
-      description: "Página oficial de la comunidad de ADempiere",
-    },
+    // "/es/": {
+    //   title: "",
+    //   lang: "es-ES",
+    //   description: "Página oficial de la comunidad de ADempiere",
+    // },
   },
 
   theme,

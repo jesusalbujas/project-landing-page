@@ -36,13 +36,13 @@ export const enNavbarConfig = navbar([
   {
     text: "Documentation",
     icon: "creative",
-    prefix: "/docs/",
+    prefix: "/docs/component",
     children: [
       { text: "Docs", link: "", icon: "note", activeMatch: "^/docs/$" },
       {
-        text: "Material Management",
+        text: "Component",
         children: [
-          "material-management/product/",
+          "/",
         ],
       },
     ],

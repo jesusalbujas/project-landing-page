@@ -2,6 +2,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 
 import { enNavbarConfig, esNavbarConfig } from "./navbar";
 // import { esSidebarConfig, enSidebarConig } from "./sidebar";
+import { enSidebar } from "./sidebar";
 
 export default hopeTheme({
   hostname: "https://github.com/adempiere/adempiere-site.github.io",
@@ -16,7 +17,16 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  repo: "https://github.com/adempiere/adempiere-site",
+  repo: "https://github.com/solop-develop/adempiere-site-on-premise",
+
+  themeColor: {
+    blue: "#2196f3",
+    red: "#f26d6d",
+    green: "#3eaf7c",
+    orange: "#fb9b5f",
+  },
+
+  fullscreen: true,
 
   repoDisplay: false,
 
@@ -26,6 +36,7 @@ export default hopeTheme({
     "/": {
       navbar: enNavbarConfig,
       // sidebar: enSidebarConig,
+      sidebar: enSidebar,
 
       blog: {
         description: "ADempiere ERP Community",
@@ -60,10 +71,10 @@ export default hopeTheme({
   plugins: {
     blog: true,
 
-    comment: {
-      provider: "Waline",
-      serverURL: "https://<to-be-defined>",
-    },
+    // comment: {
+    //   provider: "Waline",
+    //   serverURL: "https://<to-be-defined>",
+    // },
 
     feed: {
       atom: true,
@@ -73,16 +84,45 @@ export default hopeTheme({
 
     mdEnhance: {
       align: true,
+      attrs: true,
+      chart: true,
       codetabs: true,
       demo: true,
+      echarts: true,
+      figure: true,
       flowchart: true,
-      footnote: true,
-      imageMark: true,
-      presentation: true,
+      gfm: true,
+      imgLazyload: true,
+      imgMark: true,
+      imgSize: true,
+      include: true,
+      mathjax: true,
+      mark: true,
+      mermaid: true,
+      playground: {
+        presets: ["ts", "vue"],
+      },
+      presentation: {
+        plugins: ["highlight", "math", "search", "notes", "zoom"],
+      },
+      stylize: [
+        {
+          matcher: "Recommended",
+          replacer: ({ tag }) => {
+            if (tag === "em")
+              return {
+                tag: "Badge",
+                attrs: { type: "tip" },
+                content: "Recommended",
+              };
+          },
+        },
+      ],
       sub: true,
       sup: true,
-      tex: true,
-      vpre: true,
+      tabs: true,
+      vPre: true,
+      vuePlayground: true,
     },
 
     pwa: {
