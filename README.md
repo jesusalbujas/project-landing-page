@@ -55,17 +55,17 @@ docker compose -f build-docker/docker-compose.yaml up
 Download docker image:
 
 ```shell
-docker pull solopcloud/adempiere-site-on-premise
+docker pull openls/adempiere-landing-page
 ```
 
 Run the docker container
 ```shell
 docker run -it -d \
-	--name adempiere-site \
+	--name adempiere-landing-page \
 	-p 80:80 \
 	-e VUE_HOST="http://localhost:9526" \
 	-e ZK_HOST="http://localhost:8888" \
-	solopcloud/adempiere-site-on-premise
+	openls/adempiere-landing-page
 ```
 
 ### Build docker image (for development only):
@@ -80,5 +80,5 @@ pnpm run build:vite
 
 Build docker image (for development only):
 ```shell
-docker build -t solopcloud/adempiere-site-on-premise:dev -f ./build-docker/development.Dockerfile .
+docker build -t openls/adempiere-landing-page:dev -f ./build-docker/development.Dockerfile .
 ```
