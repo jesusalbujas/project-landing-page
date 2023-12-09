@@ -21,7 +21,7 @@ The collection includes a number of books covering the main topics of:
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/adempiere/adempiere?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Running the docs
-For build it just run `yarn build:vite`, if you want to run all doc just run `yarn dev:vite`, a result after run can be:
+For run all doc just run `yarn dev:vite`, a result after run can be:
 
 ```Shell
 yarn run v1.22.19

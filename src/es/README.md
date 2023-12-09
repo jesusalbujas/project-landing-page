@@ -14,6 +14,10 @@ projects:
     desc: Completamente creada en Javascript con Vue
     link: https://github.com/adempiere/adempiere-vue
     icon: /assets/img/vue-logo.png
+  - name: Programador de Tareas
+    desc: Un Programador de Tareas para ejecutar tareas programadas automáticamente
+    link: http://scheduler:99999
+    icon: /assets/img/dkron-logo.png
   # - name: Chat de Discord.
   #   desc: Estamos en Discord!
   #   link: https://discord.gg/G8nWdaB2

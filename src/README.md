@@ -15,6 +15,11 @@ projects:
     desc: Completely created on Javascript with Vue
     link: http://localhost:9526
     icon: /assets/img/vue-logo.png
+  
+  - name: Scheduler
+    desc: A Scheduler to run planned tasks
+    link: http://scheduler:99999
+    icon: /assets/img/dkron-logo.png
   # - name: Discord Rooms
   #   desc: Hey we are on Discord!
   #   link: https://discord.gg/8eFAqkhb
