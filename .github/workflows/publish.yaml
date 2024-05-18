@@ -75,14 +75,14 @@ jobs:
       - name: Publish application binary in repository
         uses: skx/github-action-publish-binaries@master
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TOKEN_GITHUB: ${{ secrets.TOKEN_GITHUB }}
         with:
           args: 'Adempiere-Site.zip'
 
       - name: Publish checksum of file
         uses: skx/github-action-publish-binaries@master
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TOKEN_GITHUB: ${{ secrets.TOKEN_GITHUB }}
         with:
           args: 'Adempiere-Site.zip.sha512'
 
@@ -98,7 +98,7 @@ jobs:
     steps:
       - id: check_secret_job
         run: |
-          if [[ "${{ secrets.DOCKER_REPO_ADEMPIERE_LANDING_PAGE }}" != "" && \
+          if [[ "${{ secrets.DOCKER_REPO_LANDING_PAGE }}" != "" && \
                 "${{ secrets.DOCKER_USERNAME }}" != "" && \
                 "${{ secrets.DOCKER_TOKEN }}" != "" ]]; \
           then
@@ -141,8 +141,8 @@ jobs:
           file: ./build-docker/production-alpine.Dockerfile
           push: true
           tags: |
-            ${{ secrets.DOCKER_REPO_ADEMPIERE_LANDING_PAGE }}:alpine
-            ${{ secrets.DOCKER_REPO_ADEMPIERE_LANDING_PAGE }}:alpine-${{ github.event.release.tag_name }}
+            ${{ secrets.DOCKER_REPO_LANDING_PAGE }}:alpine
+            ${{ secrets.DOCKER_REPO_LANDING_PAGE }}:alpine-${{ github.event.release.tag_name }}
 
   # Publish docker image in Docker Hub registry to application
   push-imame-dhr:
@@ -178,5 +178,5 @@ jobs:
           platforms: linux/amd64,linux/amd64/v2,linux/arm64/v8
           push: true
           tags: |
-            ${{ secrets.DOCKER_REPO_ADEMPIERE_LANDING_PAGE }}:latest
-            ${{ secrets.DOCKER_REPO_ADEMPIERE_LANDING_PAGE }}:${{ github.event.release.tag_name }}
+            ${{ secrets.DOCKER_REPO_LANDING_PAGE }}:latest
+            ${{ secrets.DOCKER_REPO_LANDING_PAGE }}:${{ github.event.release.tag_name }}
