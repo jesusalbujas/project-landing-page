@@ -37,9 +37,6 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=8192
         run: pnpm run docs:build
 
-      - name: List dist files
-        run: ls -la dist
-
       - name: Upload dist files
         uses: actions/upload-artifact@v3
         with:
