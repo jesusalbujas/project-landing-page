@@ -11,7 +11,7 @@ ENV VUE_HOST="http://localhost:9526" \
 
 
 COPY build-docker/start.sh .
-COPY dist/ /usr/share/nginx/html/
+COPY src/.vuepress/dist /usr/share/nginx/html/
 
 
 RUN chmod +x *.sh
