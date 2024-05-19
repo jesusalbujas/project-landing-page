@@ -1,110 +1,182 @@
 import { hopeTheme } from "vuepress-theme-hope";
-
-import { enNavbarConfig, esNavbarConfig } from "./navbar";
-// import { esSidebarConfig, enSidebarConig } from "./sidebar";
-import { enSidebar } from "./sidebar";
+import { enNavbar, zhNavbar, esNavbar } from "./navbar/index.ts";
+import { enSidebar, zhSidebar, esSidebar } from "./sidebar/index.ts";
+import { MR_HOPE_AVATAR } from "./logo.js";
 
 export default hopeTheme({
-  hostname: "https://github.com/adempiere/adempiere-site.github.io",
+  hostname: "https://github.com/adempiere/vue-ui-theme.github.io",
 
   author: {
-    name: "ADempiere",
-    url: "https://adempiere-site.erpya.com",
+    name: "Jesús Albujas",
+    url: "https://github.com/jesusalbujas",
   },
 
-  iconAssets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
-  iconPrefix: "iconfont icon-",
+  iconAssets: "fontawesome-with-brands",
 
   logo: "/logo.svg",
 
-  repo: "https://github.com/solop-develop/adempiere-site-on-premise",
-
-  themeColor: {
-    blue: "#2196f3",
-    red: "#f26d6d",
-    green: "#3eaf7c",
-    orange: "#fb9b5f",
-  },
-
-  fullscreen: true,
-
-  repoDisplay: false,
+  repo: "https://github.com/adempiere/vue-ui-theme",
 
   docsDir: "src",
 
+  themeColor: true,
+
+  fullscreen: true,
+
+  // blog: {
+  //   medias: {
+  //     Baidu: "https://example.com",
+  //     BiliBili: "https://example.com",
+  //     Bitbucket: "https://example.com",
+  //     Dingding: "https://example.com",
+  //     Discord: "https://example.com",
+  //     Dribbble: "https://example.com",
+  //     Email: "mailto:info@example.com",
+  //     Evernote: "https://example.com",
+  //     Facebook: "https://example.com",
+  //     Flipboard: "https://example.com",
+  //     Gitee: "https://example.com",
+  //     GitHub: "https://example.com",
+  //     Gitlab: "https://example.com",
+  //     Gmail: "mailto:info@example.com",
+  //     Instagram: "https://example.com",
+  //     Lark: "https://example.com",
+  //     Lines: "https://example.com",
+  //     Linkedin: "https://example.com",
+  //     Pinterest: "https://example.com",
+  //     Pocket: "https://example.com",
+  //     QQ: "https://example.com",
+  //     Qzone: "https://example.com",
+  //     Reddit: "https://example.com",
+  //     Rss: "https://example.com",
+  //     Steam: "https://example.com",
+  //     Twitter: "https://example.com",
+  //     Wechat: "https://example.com",
+  //     Weibo: "https://example.com",
+  //     Whatsapp: "https://example.com",
+  //     Youtube: "https://example.com",
+  //     Zhihu: "https://example.com",
+  //     MrHope: ["https://mister-hope.com", MR_HOPE_AVATAR],
+  //   },
+  // },
+
   locales: {
     "/": {
-      navbar: enNavbarConfig,
-      // sidebar: enSidebarConig,
+      // navbar
+      navbar: enNavbar,
+
+      // sidebar
       sidebar: enSidebar,
 
-      blog: {
-        description: "ADempiere ERP Community",
-        intro: "/about/",
-        medias: {
-          Gmail: "mailto:info@adempiere.io",
-          GitHub: "https://github.com/adempiere/adempiere-site",
-        },
-      },
-    },
-    "/es/": {
-      navbar: esNavbarConfig,
-      // sidebar: esSidebarConfig,
+      footer: "Default footer",
+
+      displayFooter: true,
 
       blog: {
-        description:
-          "VuePress project member, front-end developer, studying for a master's degree in theoretical physics",
-        intro: "/es/about/",
-        medias: {
-          Gmail: "mailto:info@adempiere.io",
-          GitHub: "https://github.com/adempiere/adempiere-site",
-          Discord: "https://discord.gg/8eFAqkhb",
-          Twitter: "https://twitter.com/ADempiereERP",
-        },
+        description: "A FrontEnd programmer",
+        intro: "/intro.html",
+      },
+
+      metaLocales: {
+        editLink: "Edit this page on GitHub",
+      },
+    },
+
+    /**
+     * Spanish locale config
+     */
+    "/es/": {
+      // navbar
+      navbar: esNavbar,
+
+      // sidebar
+      sidebar: esSidebar,
+
+      footer: "默认页脚",
+
+      displayFooter: true,
+
+      blog: {
+        description: "一个前端开发者",
+        intro: "/zh/intro.html",
+      },
+
+      // page meta
+      metaLocales: {
+        editLink: "在 GitHub 上编辑此页",
+      },
+    },
+    /**
+     * Chinese locale config
+     */
+    "/zh/": {
+      // navbar
+      navbar: zhNavbar,
+
+      // sidebar
+      sidebar: zhSidebar,
+
+      footer: "默认页脚",
+
+      displayFooter: true,
+
+      blog: {
+        description: "一个前端开发者",
+        intro: "/zh/intro.html",
+      },
+
+      // page meta
+      metaLocales: {
+        editLink: "在 GitHub 上编辑此页",
       },
     },
   },
 
-  displayFooter: true,
-  copyright: "Copyright © 2022-present ADempiere Community",
+  encrypt: {
+    config: {
+      "/demo/encrypt.html": ["1234"],
+      "/zh/demo/encrypt.html": ["1234"],
+    },
+  },
+
+  // enable it to preview all changes in time
+  // hotReload: true,
 
   plugins: {
     blog: true,
 
+    // install @waline/client before enabling it
+    // WARNING: This is a test server for demo only.
+    // You should create and use your own comment service in production.
     // comment: {
     //   provider: "Waline",
-    //   serverURL: "https://<to-be-defined>",
+    //   serverURL: "https://waline-comment.vuejs.press",
     // },
 
-    feed: {
-      atom: true,
-      json: true,
-      rss: true,
+    components: {
+      components: ["Badge", "VPCard"],
     },
 
+    // feed: {
+    //   atom: true,
+    //   json: true,
+    //   rss: true,
+    // },
+    search: true,
+
+    // all features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
       attrs: true,
-      chart: true,
       codetabs: true,
+      component: true,
+      alert: true,
       demo: true,
-      echarts: true,
       figure: true,
-      flowchart: true,
-      gfm: true,
       imgLazyload: true,
-      imgMark: true,
       imgSize: true,
       include: true,
-      mathjax: true,
       mark: true,
-      mermaid: true,
-      playground: {
-        presets: ["ts", "vue"],
-      },
-      presentation: {
-        plugins: ["highlight", "math", "search", "notes", "zoom"],
-      },
       stylize: [
         {
           matcher: "Recommended",
@@ -122,134 +194,101 @@ export default hopeTheme({
       sup: true,
       tabs: true,
       vPre: true,
-      vuePlayground: true,
+
+      // install chart.js before enabling it
+      // chart: true,
+
+      // insert component easily
+
+      // install echarts before enabling it
+      // echarts: true,
+
+      // install flowchart.ts before enabling it
+      // flowchart: true,
+
+      // gfm requires mathjax-full to provide tex support
+      // gfm: true,
+
+      // install katex before enabling it
+      // katex: true,
+
+      // install mathjax-full before enabling it
+      // mathjax: true,
+
+      // install mermaid before enabling it
+      // mermaid: true,
+
+      // playground: {
+      //   presets: ["ts", "vue"],
+      // },
+
+      // install reveal.js before enabling it
+      // revealJs: {
+      //   plugins: ["highlight", "math", "search", "notes", "zoom"],
+      // },
+
+      // install @vue/repl before enabling it
+      // vuePlayground: true,
+
+      // install sandpack-vue3 before enabling it
+      // sandpack: true,
     },
 
-    pwa: {
-      favicon: "/favicon.ico",
-      themeColor: "#5c92d1",
-      cacheHTML: false,
-      maxSize: 3072,
-      apple: {
-        icon: "/assets/icon/apple-touch-icon.png",
-        statusBarColor: "white",
-      },
-      msTile: {
-        image: "/assets/icon/ms-icon-144.png",
-        color: "#ffffff",
-      },
-      manifest: {
-        name: "ADempiere ERP Community",
-        short_name: "ADempiere ERP",
-        description: "ADempiere ERP, created by peoples like you",
-        theme_color: "#5c92d1",
-        icons: [
-          {
-            src: "/assets/icon/chrome-192.png",
-            sizes: "192x192",
-            type: "image/png",
-          },
-          {
-            src: "/assets/icon/chrome-512.png",
-            sizes: "512x512",
-            type: "image/png",
-          },
-          {
-            src: "/assets/icon/chrome-mask-192.png",
-            sizes: "192x192",
-            purpose: "maskable",
-            type: "image/png",
-          },
-          {
-            src: "/assets/icon/chrome-mask-512.png",
-            sizes: "512x512",
-            purpose: "maskable",
-            type: "image/png",
-          },
-        ],
-        shortcuts: [
-          {
-            name: "Classification",
-            short_name: "Classification",
-            icons: [
-              {
-                src: "/assets/icon/category-maskable.png",
-                sizes: "192x192",
-                purpose: "maskable",
-                type: "image/png",
-              },
-              {
-                src: "/assets/icon/category-monochrome.png",
-                sizes: "192x192",
-                purpose: "monochrome",
-                type: "image/png",
-              },
-            ],
-            url: "/category/",
-            description: "Classification Group",
-          },
-          {
-            name: "Label",
-            short_name: "Label",
-            icons: [
-              {
-                src: "/assets/icon/tag-maskable.png",
-                sizes: "192x192",
-                purpose: "maskable",
-                type: "image/png",
-              },
-              {
-                src: "/assets/icon/tag-monochrome.png",
-                sizes: "192x192",
-                purpose: "monochrome",
-                type: "image/png",
-              },
-            ],
-            url: "/tag/",
-            description: "Tag Grouping",
-          },
-          {
-            name: "Timeline",
-            short_name: "Timeline",
-            icons: [
-              {
-                src: "/assets/icon/timeline-maskable.png",
-                sizes: "192x192",
-                purpose: "maskable",
-                type: "image/png",
-              },
-              {
-                src: "/assets/icon/timeline-monochrome.png",
-                sizes: "192x192",
-                purpose: "monochrome",
-                type: "image/png",
-              },
-            ],
-            url: "/timeline/",
-            description: "Timeline Article List",
-          },
-          {
-            name: "Self Introduction",
-            short_name: "Self Introduction",
-            icons: [
-              {
-                src: "/assets/icon/about-maskable.png",
-                sizes: "192x192",
-                purpose: "maskable",
-                type: "image/png",
-              },
-              {
-                src: "/assets/icon/about-monochrome.png",
-                sizes: "192x192",
-                purpose: "monochrome",
-                type: "image/png",
-              },
-            ],
-            url: "/about/",
-            description: "Self Introduction",
-          },
-        ],
-      },
-    },
+    // install @vuepress/plugin-pwa and uncomment these if you want a PWA
+    // pwa: {
+    //   favicon: "/favicon.ico",
+    //   cacheHTML: true,
+    //   cachePic: true,
+    //   appendBase: true,
+    //   apple: {
+    //     icon: "/assets/icon/apple-icon-152.png",
+    //     statusBarColor: "black",
+    //   },
+    //   msTile: {
+    //     image: "/assets/icon/ms-icon-144.png",
+    //     color: "#ffffff",
+    //   },
+    //   manifest: {
+    //     icons: [
+    //       {
+    //         src: "/assets/icon/chrome-mask-512.png",
+    //         sizes: "512x512",
+    //         purpose: "maskable",
+    //         type: "image/png",
+    //       },
+    //       {
+    //         src: "/assets/icon/chrome-mask-192.png",
+    //         sizes: "192x192",
+    //         purpose: "maskable",
+    //         type: "image/png",
+    //       },
+    //       {
+    //         src: "/assets/icon/chrome-512.png",
+    //         sizes: "512x512",
+    //         type: "image/png",
+    //       },
+    //       {
+    //         src: "/assets/icon/chrome-192.png",
+    //         sizes: "192x192",
+    //         type: "image/png",
+    //       },
+    //     ],
+    //     shortcuts: [
+    //       {
+    //         name: "Demo",
+    //         short_name: "Demo",
+    //         url: "/demo/",
+    //         icons: [
+    //           {
+    //             src: "/assets/icon/guide-maskable.png",
+    //             sizes: "192x192",
+    //             purpose: "maskable",
+    //             type: "image/png",
+    //           },
+    //         ],
+    //       },
+    //     ],
+    //   },
+    // },
   },
 });

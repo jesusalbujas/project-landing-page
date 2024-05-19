@@ -1,27 +1,118 @@
 ---
 home: true
-layout: Blog
 icon: home
 title: Inicio
-bgImage: /es/background.png
-heroFullScreen: true
-projects:
-  - name: ZK UI
-    desc: Ajax (UI) para ADempiere
-    link:  http://localhost/webui/
-    icon: /assets/icon/logo.png
-  - name: Nueva Interfaz de Usuario para ADempiere
-    desc: Completamente creada en Javascript con Vue
-    link: https://github.com/adempiere/adempiere-vue
-    icon: /assets/img/vue-logo.png
-  - name: Programador de Tareas
-    desc: Un Programador de Tareas para ejecutar tareas programadas automáticamente
-    link: http://scheduler:99999
-    icon: /assets/img/dkron-logo.png
-  # - name: Chat de Discord.
-  #   desc: Estamos en Discord!
-  #   link: https://discord.gg/G8nWdaB2
-  #   icon: /assets/img/discord-logo.png
+heroImage: /logo.svg
+heroText: Vue UI
+tagline: La nueva interfaz de usuario para ADempiere ERP ✨
+actions:
+  - text: Empezar
+    link: /es/get-started/
+    icon: rocket
+    type: primary
 
-footer: '<a href="https://github.com/adempiere" rel="noopener noreferrer" target="_blank">Comunidad ADempiere</a> | <a href="/about/site">Acerca De</a>'
+  - text: Guia
+    icon: book-open
+    link: /guide/
+
+  - text: Nueva UI para ADempiere 
+    details: Completamente desarrollado con Javascript usando Vue
+    link: http://localhost:9526
+    icon: /assets/img/vue-logo-small.png
+
+# features:
+#   - title: Markdown Enhance
+#     icon: fab fa-markdown
+#     details: Add align, sup/sub script, footnote, tasklist, tex, flowchart, diagram, mark and presentation support in Markdown
+#     link: /guide/markdown/
+
+#   - title: Slide Page
+#     icon: person-chalkboard
+#     details: Adding slide pages to display things you like
+#     link: /guide/layout/slides
+
+#   - title: Layout Enhancement
+#     icon: object-group
+#     details: Adding breadcrumb, footer, improved navbar, improved page nav and etc.
+#     link: /guide/layout/
+
+#   - title: Pageviews and Comments
+#     icon: comment-dots
+#     details: Start pageview statistics and comment support with Waline
+#     link: /guide/feature/comment.html
+
+#   - title: Article Information
+#     icon: circle-info
+#     details: Add author, writing date, reading time, word count and other information to your article
+#     link: /guide/feature/page-info.html
+
+#   - title: Blog Support
+#     icon: blog
+#     details: Listing your articles with their dates, tags and categories with some awesome layouts
+#     link: /guide/blog/
+
+#   - title: Customizable Theme Color
+#     icon: palette
+#     details: Customize theme color
+#     link: /guide/interface/theme-color.html
+
+#   - title: Dark Mode
+#     icon: circle-half-stroke
+#     details: Switch between light and dark modes freely
+#     link: /guide/interface/darkmode.html
+
+#   - title: Full A11y support
+#     icon: universal-access
+#     details: Full support of accessibility in your site
+#     link: /guide/interface/accessibility.html
+
+#   - title: Article Encryption
+#     icon: lock
+#     details: Encrypt you articles based on page links, so that only the one you want could see them
+#     link: /guide/feature/encrypt.html
+
+#   - title: Search
+#     icon: search
+#     details: Support docsearch and client search
+#     link: /guide/feature/search.html
+
+#   - title: Copy Code Blocks
+#     icon: copy
+#     details: Copy codes with one click in code blocks
+#     link: /guide/feature/copy-code.html
+
+#   - title: Image Preview
+#     icon: image
+#     details: Support viewing, zooming, sharing your page img like a gallery
+#     link: /guide/feature/photo-swipe.html
+
+#   - title: SEO Enhancement
+#     icon: dumbbell
+#     details: Optimize pages for search engines
+#     link: /guide/advanced/seo.html
+
+#   - title: Sitemap
+#     icon: sitemap
+#     details: Generate a Sitemap for your site
+#     link: /guide/advanced/sitemap.html
+
+#   - title: Feed
+#     icon: rss
+#     details: Generate feed to allow users to subscribe it
+#     link: /guide/advanced/feed.html
+
+#   - title: PWA
+#     icon: mobile-screen
+#     details: Make your site more like an APP
+#     link: /guide/advanced/pwa.html
+
+#   - title: More New Features
+#     icon: ellipsis
+#     details: Including icon support, fullscreen button, etc.
+#     link: /guide/feature/
+
+copyright: false
+footer: MIT Licensed | Copyright © 2019-present Mr.Hope
 ---
+
+ADempiere-Vue es una nueva interfaz de usuario para ADempiere ERP, CRM y SCM. Se basa en Vue<i class="fa-brands fa-vuejs" style="color: #63E6BE;"></i>, Nuxt y utiliza el UI Toolkit Element-Plus. Es una gran interfaz de usuario para ADempiere ERP, CRM y SCM, basado en la pila de desarrollo más reciente de Vue, solución i18n incorporada, plantillas típicas para aplicaciones empresariales, un montón de características impresionantes. Este proyecto fue bifurcado de Vue-Element-Admin
