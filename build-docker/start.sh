@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # folder with dist app files
-cd /usr/share/nginx/html/static/js
+cd /usr/share/nginx/html/
 
 # Set Vue host client
 find -name 'index.html.*.js' -exec sed -i "s|http://localhost:9526|$VUE_HOST|g" {} \;

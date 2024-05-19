@@ -1,6 +1,6 @@
 FROM nginx:1.23.3-alpine
 
-LABEL	maintainer="EdwinBetanc0urt@outlook.com; ElsioSanchez15@outlook.com; ySenih@erpya.com;" \
+LABEL	maintainer="jalbujas@erpya.com;" \
 	description="A community page VuePress with Hope theme"
 
 
