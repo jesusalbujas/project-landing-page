@@ -3,8 +3,8 @@ home: true
 icon: home
 title: Inicio
 heroImage: /logo.svg
-heroText: Vue UI
-tagline: La nueva interfaz de usuario para ADempiere ERP ✨
+heroText: Gestión Eficiente de Activos Fijos en ERP CyA.
+tagline: Una nueva forma de gestionar tus recursos✨
 actions:
   - text: Empezar
     link: /es/get-started/
@@ -13,23 +13,23 @@ actions:
 
   - text: Guia
     icon: book-open
-    link: /guide/
+    link: /es/guide/
 
   - text: Nueva UI para ADempiere 
     details: Completamente desarrollado con Javascript usando Vue
-    link: http://localhost:9526
+    link: http://api.adempiere.io/vue
     icon: /assets/img/vue-logo-small.png
 
-# features:
-#   - title: Markdown Enhance
-#     icon: fab fa-markdown
-#     details: Add align, sup/sub script, footnote, tasklist, tex, flowchart, diagram, mark and presentation support in Markdown
-#     link: /guide/markdown/
+features:
+  - title: Sobre ERP Consultores y Asociados
+    icon: /assets/img/about/erp.jpeg
+    details: Conoce al equipo detrás de la magia. Descubre quiénes son los artífices que hacen posible este proyecto.
+    link: /es/about/about-erp
 
-#   - title: Slide Page
-#     icon: person-chalkboard
-#     details: Adding slide pages to display things you like
-#     link: /guide/layout/slides
+  - title: ¿Quiénes somos?
+    icon: person-chalkboard
+    details: Explora nuestra historia y descubre quiénes somos realmente
+    link: /es/about/
 
 #   - title: Layout Enhancement
 #     icon: object-group
@@ -112,7 +112,7 @@ actions:
 #     link: /guide/feature/
 
 copyright: false
-footer: MIT Licensed | Copyright © 2019-present Mr.Hope
+footer: MIT Licensed | Copyright © 2024-present University Project
 ---
 
-ADempiere-Vue es una nueva interfaz de usuario para ADempiere ERP, CRM y SCM. Se basa en Vue<i class="fa-brands fa-vuejs" style="color: #63E6BE;"></i>, Nuxt y utiliza el UI Toolkit Element-Plus. Es una gran interfaz de usuario para ADempiere ERP, CRM y SCM, basado en la pila de desarrollo más reciente de Vue, solución i18n incorporada, plantillas típicas para aplicaciones empresariales, un montón de características impresionantes. Este proyecto fue bifurcado de Vue-Element-Admin
+Este es un proyecto universitario realizado en ADempiere UI <i class="fa-brands fa-vuejs" style="color: #63E6BE;"></i> utilizando tecnologías actualizadas y Keycloak como plataforma de seguridad externa.

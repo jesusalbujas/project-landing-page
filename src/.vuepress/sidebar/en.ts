@@ -48,7 +48,19 @@ export const enSidebar = sidebar({
         "get-started/Docker/"
       ]
     },
-    { text: "Guide", icon: "book-open", link: "/guide/" },
+    { 
+    text: "Guide", 
+    icon: "book-open", 
+    link: "/guide/" 
+  },
+  { 
+    text: "About", 
+    icon: "person", 
+    link: "/about/",
+    children: [
+      "/about/about-erp"
+    ]
+  },
     // "get-started/",
     // {
     //   text: "Get Started",

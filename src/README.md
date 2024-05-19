@@ -3,8 +3,8 @@ home: true
 icon: home
 title: Home
 heroImage: /logo.svg
-heroText: Vue UI
-tagline: The new UI for ADempiere ERP ✨
+heroText: Efficient Management of Fixed Assets in ERP CyA.
+tagline: A new way to manage fixed assets✨
 actions:
   - text: Get Started
     link: /get-started/
@@ -15,25 +15,21 @@ actions:
     icon: book-open
     link: /guide/
 
-  - text: Nueva UI para ADempiere 
+  - text: New UI for ADempiere
     details: Completamente desarrollado con Javascript usando Vue
-    link: http://localhost:9526
+    link: http://api.adempiere.io/vue
     icon: /assets/img/vue-logo-small.png
 
-  # - text: Demos
-  #   icon: star
-  #   link: /demo/
+features:
+  - title: About ERP Consultants and Associates
+    icon: /assets/img/about/erp.jpeg
+    details: Meet the team behind the magic. Discover who the artisans are that make this project possible.
+    link: /about/about-erp
 
-# features:
-#   - title: Markdown Enhance
-#     icon: fab fa-markdown
-#     details: Add align, sup/sub script, footnote, tasklist, tex, flowchart, diagram, mark and presentation support in Markdown
-#     link: /guide/markdown/
-
-#   - title: Slide Page
-#     icon: person-chalkboard
-#     details: Adding slide pages to display things you like
-#     link: /guide/layout/slides
+  - title: Who Are We?
+    icon: person-chalkboard
+    details: Explore our history and discover who we truly are.
+    link: /about/
 
 #   - title: Layout Enhancement
 #     icon: object-group
@@ -119,7 +115,8 @@ copyright: false
 footer: MIT Licensed | Copyright © 2024-present University Project
 ---
 
-ADempiere-Vue is a new UI for ADempiere ERP, CRM & SCM. It is based on  Vue<i class="fa-brands fa-vuejs" style="color: #63E6BE;"></i> , Nuxt and uses the UI Toolkit Element-Plus. It is a great UI for ADempiere ERP, CRM & SCM, based on the newest development stack of Vue, built-in i18n solution, typical templates for enterprise applications, lots of awesome features. This project was forked from Vue-Element-Admin
+This is a university project carried out in ADempiere UI <i class="fa-brands fa-vuejs" style="color: #63E6BE;"></i> using updated technologies and Keycloak as an external security platform.
+
 <!-- 
 ## 🚀Usage
 

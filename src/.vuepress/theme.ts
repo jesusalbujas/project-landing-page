@@ -15,7 +15,7 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  repo: "https://github.com/adempiere/vue-ui-theme",
+  repo: "https://github.com/jesusalbujas/adempiere-landing-page",
 
   docsDir: "src",
 
@@ -72,11 +72,6 @@ export default hopeTheme({
 
       displayFooter: true,
 
-      blog: {
-        description: "A FrontEnd programmer",
-        intro: "/intro.html",
-      },
-
       metaLocales: {
         editLink: "Edit this page on GitHub",
       },
@@ -92,18 +87,13 @@ export default hopeTheme({
       // sidebar
       sidebar: esSidebar,
 
-      footer: "默认页脚",
+      footer: "Default footer",
 
       displayFooter: true,
 
-      blog: {
-        description: "一个前端开发者",
-        intro: "/zh/intro.html",
-      },
-
       // page meta
       metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
+        editLink: "Editar esta página en Github",
       },
     },
     /**

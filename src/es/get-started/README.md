@@ -3,10 +3,10 @@ title: Empezar
 icon: rocket
 star: true
 sticky: 10
+article: true
 dir:
   order: 1
 category:
-  - Cookbook
   - Tutorial
   - Get Started
 ---

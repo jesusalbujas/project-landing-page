@@ -13,6 +13,18 @@ export const esSidebar = sidebar({
         "get-started/Docker/"
       ]
     },
-    { text: "Guide", icon: "book-open", link: "/guide/" },
+    { 
+      text: "Guide", 
+      icon: "book-open", 
+      link: "/es/guide/" 
+    },
+    { 
+      text: "Nosotros", 
+      icon: "person", 
+      link: "/es/about/",
+      children: [
+        "/es/about/about-erp"
+      ]
+    },
   ],
 });
