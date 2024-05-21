@@ -162,3 +162,9 @@ Los objetivos estratégicos de la empresa incluyen proveer soluciones integrales
 ## Misión y Visión
 
 La empresa se esfuerza por ofrecer total satisfacción a sus clientes mediante servicios basados en los principios de honestidad, responsabilidad, profesionalismo, calidad y eficiencia. Su visión es convertirse en la líder indiscutible del sector de Consultoría en Tecnología de Información, proporcionando calidad de servicio y contribuyendo activamente al desarrollo de soluciones de negocio de fuentes abiertas.
+
+# Ubicacion
+
+![MAPA](/assets/img/map/map1.png)
+
+![MAPA SATELITAL](/assets/img/map/map2.png)
