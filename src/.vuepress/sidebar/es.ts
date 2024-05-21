@@ -7,14 +7,14 @@ export const esSidebar = sidebar({
       text: "Empezar",
       link: "get-started/",
       icon: "rocket",
-      children: [
-        "get-started/Develop/",
-        "get-started/Build/",
-        "get-started/Docker/"
-      ]
+      // children: [
+      //   "get-started/Develop/",
+      //   "get-started/Build/",
+      //   "get-started/Docker/"
+      // ]
     },
     { 
-      text: "Guide", 
+      text: "Guia", 
       icon: "book-open", 
       link: "/es/guide/" 
     },

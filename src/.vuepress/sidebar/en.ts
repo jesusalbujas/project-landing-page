@@ -42,11 +42,11 @@ export const enSidebar = sidebar({
       text: "Get Started",
       link: "get-started/",
       icon: "rocket",
-      children: [
-        "get-started/Develop/",
-        "get-started/Build/",
-        "get-started/Docker/"
-      ]
+      // children: [
+      //   "get-started/Develop/",
+      //   "get-started/Build/",
+      //   "get-started/Docker/"
+      // ]
     },
     { 
     text: "Guide", 
