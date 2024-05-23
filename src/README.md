@@ -3,7 +3,7 @@ home: true
 icon: home
 title: Home
 heroImage: /logo.svg
-heroText: Efficient Management of Fixed Assets in ERP CyA.
+heroText: Develop Asset Management software in ERP CyA.
 tagline: A new way to manage fixed assets✨
 actions:
   - text: Get Started

@@ -3,7 +3,7 @@ home: true
 icon: home
 title: Inicio
 heroImage: /logo.svg
-heroText: Gestión Eficiente de Activos Fijos en ERP CyA.
+heroText: Desarrollar software de Gestión de Activos en ERP CyA.
 tagline: Una nueva forma de gestionar tus recursos✨
 actions:
   - text: Empezar
