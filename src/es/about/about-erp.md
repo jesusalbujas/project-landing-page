@@ -163,13 +163,12 @@ Los objetivos estratégicos de la empresa incluyen proveer soluciones integrales
 
 La empresa se esfuerza por ofrecer total satisfacción a sus clientes mediante servicios basados en los principios de honestidad, responsabilidad, profesionalismo, calidad y eficiencia. Su visión es convertirse en la líder indiscutible del sector de Consultoría en Tecnología de Información, proporcionando calidad de servicio y contribuyendo activamente al desarrollo de soluciones de negocio de fuentes abiertas.
 
-<<<<<<< Updated upstream
 # Ubicacion
 
 ![MAPA](/assets/img/map/map1.png)
 
 ![MAPA SATELITAL](/assets/img/map/map2.png)
-=======
+
 # Organigrama Estructural
 
 ![ERP CyA](/assets/img/about/ERP-diagram-without-name.png)
@@ -303,4 +302,3 @@ Responsabilidades:
 - Realizar las gestiones ante los organismos administrativos, municipales y del Estado.
 - Realizar las declaraciones y pagos de impuestos, tributos y parafiscales.
 - Apoyar en el área de ventas.
->>>>>>> Stashed changes
