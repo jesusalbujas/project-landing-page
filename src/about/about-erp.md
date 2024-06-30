@@ -162,3 +162,134 @@ The company's strategic objectives include providing comprehensive business solu
 ## Mission and Vision
 
 The company strives to offer total satisfaction to its clients through services based on the principles of honesty, responsibility, professionalism, quality, and efficiency. Its vision is to become the undisputed leader in the Information Technology Consulting sector, providing quality service and actively contributing to the development of open-source business solutions.
+
+# Location
+
+![MAPA](/assets/img/map/map1.png)
+
+![MAPA SATELITAL](/assets/img/map/map2.png)
+
+# Structural Organization Chart
+
+![ERP CyA](/assets/img/about/ERP-diagram-without-name.png)
+
+## Director's Department
+
+Its mission is to successfully satisfy the technological needs of the company, effectively coordinating the entire technical team. Below is a detailed description of this position:
+
+Responsibilities:
+
+- Development of the technological strategy: The CTO develops the company's strategy to use technological resources efficiently and profitably.
+- Implementation of systems and infrastructure: Evaluate and implement new systems and technologies that provide a competitive advantage.
+- Supervision of the system infrastructure: Ensures the functionality and efficiency of the technological infrastructure.
+- Quality control and data protection: Establishes processes to guarantee the quality and security of the systems.
+- Technology performance assessment: Monitor key performance indicators and IT budgets.
+- Strategic communication: Communicate the technological strategy to partners and investors.
+
+## Development <i class="fa-solid fa-code" style="color: #;"></i>
+
+- Implement the ADempiere System in organizations (companies – SMEs – mini SMEs) according to the parameters indicated by the Directive.
+- Design test plans for the updates required for the system.
+- Provides support and solutions to operating problems of both internal and external computer systems.
+- Manage and plan with the other areas involved the start-up, update and maintenance of the system.
+- Provides support in technological needs assessments.
+- Monitoring of daily backups regarding internal data.
+- Perform tests to measure the quality of the updates made to the system.
+- Corrects errors in the system.
+- Periodically verifies the correct functioning of the computer system according to the parameters established for it.
+- Improve existing programs and feature deployment
+- Perform the corresponding maintenance on the system, monitoring and correcting detected defects, as well as developing the code in specialized languages ​​(HTML, PHP, XML) for new programs.
+
+## IT Admin / Report Development
+
+- Installation and configuration of peripheral devices.
+- Research and implement new technologies that serve to optimize processes.
+- Development of Reports for the ADempiere system.
+- Develop simple programming codes that are easy to understand and apply
+- Analyzes each of the functional requirements to be reflected in the user interface.
+- Build friendlier interfaces, easier to use and learn with the help of interaction patterns.
+- Evaluate applications and programming language.
+- Illustrates design ideas, storyboards, process flows, feature deployment.
+- Prepare operating manuals and technical specifications of the systems.
+- Document each process, business functionality, implemented improvement or any functionality that the client could ask about using the platform [docs.erpya.com](https://docs.erpya.com/)
+- Consult the platform [StackOverflow](https://stackoverflow.com/c/erypya/questions) for internal procedures, solutions to recurring problems and any other type of problem that already has or is expected to have some type of solution.
+- Use the SLACK / telegram/Discord platform to carry out interactions with clients during the implementation of the project as well as internal interaction.
+- Document in detail each request made by the client, internal or any other type of issue, software improvement or question asked by a client on the [Github] platform (https://github.com/erpcya/).
+- Monitoring of daily backups regarding internal data.
+- Takes versions developed by the Development area to production.
+
+## Services
+
+### Master Support
+
+- Supervises customer service and support provided by functional support analysts.
+- Provides contact and solutions to customer functional problems when directed by analysts.
+- Supports and organizes user training.
+- Appropriately escalates or delegates unresolved queries to the next level of support in case the queries cannot be functionally resolved.
+- Guides clients through the process of problem resolution and consolidation of knowledge in managing the system
+- Provides specialized advice and consultations to the various departments regarding functionalities when required.
+- Prepares written reports to your immediate supervisor on resolved tickets on a monthly basis.
+- Continuously supervises the staff in charge regarding the tickets generated and their resolution, as well as customer satisfaction at the time of being served.
+- Supervises daily the fulfillment of pending tasks of his work team.
+
+### Junior Support
+
+- Provides support and solutions to operating problems of both internal and external computer systems.
+- Handle the resolution of doubts or information requirements from users and/or clients, through the support platform, generating the corresponding tickets, efficiently collecting the information necessary for their resolution.
+- Perform tests to ensure that the system is error-free.
+- Provides functional support.
+- Responds to immediate needs raised by clients using the tool assigned for this purpose.
+- Redirect any doubts or incidents (tickets) that require more specialized support to your immediate supervisor, if you cannot resolve them.
+- Documents any incident or novelty that arises in the implementation of the project and supervises that the personnel in charge document their activities.
+- Document each process, business functionality, implemented improvement or any functionality that the client could ask about using the platform [docs.erpya.com](https://docs.erpya.com/)
+
+### Project coordinator
+
+- Diagnoses and analyzes the processes that make up the implementation and management of the software projects assigned to him.
+- Establish the order of importance of the objectives, according to the resources available.
+- Design a strategic plan, indicating the needs or requirements of human capital to execute the project.
+- Anticipates the variables that may intervene to anticipate future conditions.
+- Provides deadlines for achieving objectives.
+- Prepares a written project to be presented to the Board of Directors where it establishes the order of actions in time and manner of execution.
+- Communicate to your work team the plans, objectives, goals, policies, standards and procedures to follow for the execution of a new project.
+- Assigns written tasks and responsibilities for the execution of the project, establishing objectives, forms and execution time.
+- Provides specialized advice and consultations to the various departments regarding functionalities when required.
+- Detects the information necessary for the implementation of the assigned project.
+- Coordinates and supervises the implementation and testing of the system.
+- Coordinates the attention and resolution of problems and user requirements of new projects.
+- Directs evaluation processes and technological changes according to the requirements of each project, according to the parameters established by their immediate supervisors.
+- Control the projects assigned to each coordination.
+
+### Junior Support
+
+- Provides support and solutions to operating problems of both internal and external computer systems.
+- Handle the resolution of doubts or information requirements from users and/or clients, through the support platform, generating the corresponding tickets, efficiently collecting the information necessary for their resolution.
+- Perform tests to ensure that the system is error-free.
+- Provides functional support.
+- Responds to immediate needs raised by clients using the tool assigned for this purpose.
+- Redirect any doubts or incidents (tickets) that require more specialized support to your immediate supervisor, if you cannot resolve them.
+- Documents any incident or novelty that arises in the implementation of the project and supervises that the personnel in charge document their activities.
+- Document each process, business functionality, implemented improvement or any functionality that the client could ask about using the platform [docs.erpya.com](https://docs.erpya.com/)
+
+## Finance / Commercial Departments
+
+### Director of Sales and Administration
+
+- Research and understand the market: you must be aware of market trends, competition and opportunities to adapt sales strategies.
+- Define objectives and set sales goals
+- Study the competition: Analyze the competition's strategies and look for opportunities to differentiate and offer added value.
+- Supervise and coordinate sales department operations: Ensures that sales activities are carried out efficiently and effectively.
+- Devise innovative sales strategies: Look for new ways to connect with customers and achieve successful sales.
+- Supervises the administrative management of sales achieved.
+
+
+
+### Administrator
+
+- Organization of files and work papers.
+- Deliver properly organized payroll folders to accounting.
+- Reception of requisitions.
+- Inventory preparation.
+- Registration of invoices in the administrative system
+- Follow up on accounts receivable and payable, in accordance with the guidelines of the administrative and management department.
+- General biweekly/monthly payroll as well as

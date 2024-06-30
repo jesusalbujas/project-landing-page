@@ -23,7 +23,8 @@ export const esSidebar = sidebar({
       icon: "person", 
       link: "/es/about/",
       children: [
-        "/es/about/about-erp"
+        "/es/about/about-erp",
+        "/es/about/location"
       ]
     },
   ],

@@ -10,4 +10,9 @@ export const enNavbar = navbar([ {
     icon: "book-open", 
     link: "/guide/" 
   },
+  { 
+    text: "Access the system", 
+    icon: "/assets/img/vue-logo-small.png", 
+    link: "http://api.adempiere.io/vue" 
+  },
 ]);

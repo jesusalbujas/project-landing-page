@@ -2,9 +2,9 @@
 home: true
 icon: home
 title: Home
-heroImage: /logo.svg
-heroText: Develop Asset Management software in ERP CyA.
-tagline: A new way to manage fixed assets✨
+heroImage: /assets/img/logo-menu.jpg
+heroText: Develop Asset Management software.
+tagline: E.R.P. Consultores y Asociados C.A.
 actions:
   - text: Get Started
     link: /get-started/
@@ -15,12 +15,18 @@ actions:
     icon: book-open
     link: /guide/
 
-  - text: New UI for ADempiere
-    details: Completamente desarrollado con Javascript usando Vue
+  - text: Access the system
+    details: Completely developed with Javascript using Vue
     link: http://api.adempiere.io/vue
     icon: /assets/img/vue-logo-small.png
 
 features:
+  - title: Location
+    icon: map
+    details: C.C Buenaventura, Office M-6, Araure, Portuguesa State. Venezuela.
+    link: /about/location
+    type: primary 
+
   - title: About ERP Consultants and Associates
     icon: /assets/img/about/erp.jpeg
     details: Meet the team behind the magic. Discover who the artisans are that make this project possible.

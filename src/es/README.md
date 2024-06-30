@@ -24,6 +24,7 @@ features:
   - title: Ubicación 
     icon: map
     details: C.C Buenaventura, Oficina M-6, Araure, Estado Portuguesa. Venezuela.
+    link: /es/about/location
     type: primary 
 
   - title: Sobre ERP Consultores y Asociados
