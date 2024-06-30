@@ -12,4 +12,9 @@ export const esNavbar = navbar([
     icon: "book-open", 
     link: "/es/guide/" 
   },
+  { 
+    text: "Acceder al sistema", 
+    icon: "/assets/img/vue-logo-small.png", 
+    link: "http://api.adempiere.io/vue" 
+  },
 ]);

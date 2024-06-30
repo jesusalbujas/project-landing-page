@@ -2,9 +2,9 @@
 home: true
 icon: home
 title: Inicio
-heroImage: /logo.svg
-heroText: Desarrollar software de Gestión de Activos en ERP CyA.
-tagline: Una nueva forma de gestionar tus recursos✨
+heroImage: /assets/img/logo-menu.jpg
+heroText: Desarrollar software de Gestión de Activos.
+tagline: E.R.P. Consultores y Asociados C.A.
 actions:
   - text: Empezar
     link: /es/get-started/
@@ -15,12 +15,17 @@ actions:
     icon: book-open
     link: /es/guide/
 
-  - text: Nueva UI para ADempiere 
+  - text: Accceder al sistema
     details: Completamente desarrollado con Javascript usando Vue
     link: http://api.adempiere.io/vue
     icon: /assets/img/vue-logo-small.png
 
 features:
+  - title: Ubicación 
+    icon: map
+    details: C.C Buenaventura, Oficina M-6, Araure, Estado Portuguesa. Venezuela.
+    type: primary 
+
   - title: Sobre ERP Consultores y Asociados
     icon: /assets/img/about/erp.jpeg
     details: Conoce al equipo detrás de la magia. Descubre quiénes son los artífices que hacen posible este proyecto.
@@ -116,3 +121,4 @@ footer: MIT Licensed | Copyright © 2024-present University Project
 ---
 
 Este es un proyecto universitario realizado en ADempiere UI <i class="fa-brands fa-vuejs" style="color: #63E6BE;"></i> utilizando tecnologías actualizadas y Keycloak como plataforma de seguridad externa.
+

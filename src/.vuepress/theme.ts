@@ -13,7 +13,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "/logo.svg",
+  logo: "/assets/img/about/erp.jpeg",
 
   repo: "https://github.com/jesusalbujas/adempiere-landing-page",
 
