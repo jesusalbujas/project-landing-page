@@ -8,7 +8,7 @@ tagline: E.R.P. Consultores y Asociados C.A.
 actions:
   - text: C.C Buenaventura, Office M-6, Araure, Portuguesa State. Venezuela.
     icon: map
-    link: a
+    link: /about/location
 
   - text: Get Started
     link: /get-started/
@@ -25,12 +25,6 @@ actions:
     icon: /assets/img/vue-logo-small.png
 
 features:
-  - title: Location
-    icon: map
-    details: C.C Buenaventura, Office M-6, Araure, Portuguesa State. Venezuela.
-    link: /about/location
-    type: primary 
-
   - title: About ERP Consultants and Associates
     icon: /assets/img/about/erp.jpeg
     details: Meet the team behind the magic. Discover who the artisans are that make this project possible.

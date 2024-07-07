@@ -163,15 +163,10 @@ The company's strategic objectives include providing comprehensive business solu
 
 The company strives to offer total satisfaction to its clients through services based on the principles of honesty, responsibility, professionalism, quality, and efficiency. Its vision is to become the undisputed leader in the Information Technology Consulting sector, providing quality service and actively contributing to the development of open-source business solutions.
 
-# Location
-
-![MAPA](/assets/img/map/map1.png)
-
-![MAPA SATELITAL](/assets/img/map/map2.png)
-
+#
 # Structural Organization Chart
 
-![ERP CyA](/assets/img/about/ERP-diagram-without-name.png)
+![ERP CyA](/assets/img/about/English.png)
 
 ## Director's Department
 
