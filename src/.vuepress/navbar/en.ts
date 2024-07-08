@@ -12,6 +12,11 @@ export const enNavbar = navbar([
     icon: "book-open", 
     link: "/guide/" 
   },
+  {
+    text: "Development",
+    icon: "database",
+    link: "/development/dev-en" 
+  },
   { 
     text: "Access the system", 
     icon: "/assets/img/vue-logo-small.png", 
