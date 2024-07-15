@@ -15,11 +15,18 @@ category:
 
 # Reseña Histórica
 
-La historia de **ERP Consultores y Asociados** se remonta al año 2012, cuando un grupo de apasionados programadores, liderados por Yamel Senih, Carlos Parada y José Botero, se unieron con el propósito de proporcionar soluciones innovadoras en el ámbito de la consultoría en tecnología de información.
+<div style="text-align: justify">
+La historia de <b>ERP Consultores y Asociados</b> se remonta al año 2012, cuando un grupo de apasionados programadores, liderados por Yamel Senih, Carlos Parada y José Botero, se unieron con el propósito de proporcionar soluciones innovadoras en el ámbito de la consultoría en tecnología de información.
+</div>
+<p></p>
+<div style="text-align: justify">
+El impulso inicial surgió de la oportunidad de utilizar ADempiere, una potente herramienta de gestión empresarial de código abierto, para brindar servicios a empresas en la implementación de soluciones ERP. Tras trabajar juntos y compartir una visión común, decidieron formalizar su asociación y fundar oficialmente <b>ERP Consultores y Asociados</b> el 31 de marzo de 2012.
+</div>
+<p></p>
+<div style="text-align: justify">
+A lo largo de los años, la empresa ha crecido y evolucionado, manteniendo su compromiso con la excelencia y la innovación en cada proyecto. Con un equipo dedicado y una sólida base de valores fundamentales, <b>ERP Consultores y Asociados</b> se ha consolidado como un referente en el sector de la consultoría en tecnología de información, destacando por su calidad de servicio, compromiso con los clientes y contribución al desarrollo de soluciones empresariales basadas en tecnologías de fuente abierta.
+</div>
 
-El impulso inicial surgió de la oportunidad de utilizar ADempiere, una potente herramienta de gestión empresarial de código abierto, para brindar servicios a empresas en la implementación de soluciones ERP. Tras trabajar juntos y compartir una visión común, decidieron formalizar su asociación y fundar oficialmente **ERP Consultores y Asociados** el 31 de marzo de 2012.
-
-A lo largo de los años, la empresa ha crecido y evolucionado, manteniendo su compromiso con la excelencia y la innovación en cada proyecto. Con un equipo dedicado y una sólida base de valores fundamentales, **ERP Consultores y Asociados** se ha consolidado como un referente en el sector de la consultoría en tecnología de información, destacando por su calidad de servicio, compromiso con los clientes y contribución al desarrollo de soluciones empresariales basadas en tecnologías de fuente abierta.
 
 # Los Líderes de ERP
 
@@ -156,20 +163,26 @@ A lo largo de los años, la empresa ha crecido y evolucionado, manteniendo su co
 ---
 
 # Objetivos Estratégicos
-
+<p></p>
+<div style="text-align: justify">
 Los objetivos estratégicos de la empresa incluyen proveer soluciones integrales de negocios apoyadas en tecnología de información abierta y de última generación, innovar a través del estudio e investigación de nuevas tecnologías, generar confianza en los clientes mediante una excelente calidad de servicio, apoyar y contribuir a la comunidad de Adempiere, mejorar los servicios de atención al cliente y las visitas para convencer a los usuarios, y mejorar el producto (Adempiere) para que sea más atractivo, amigable y moderno para los clientes.
+</div>
 
 # Misión y Visión
-
+<p></p>
+<div style="text-align: justify">
 La empresa se esfuerza por ofrecer total satisfacción a sus clientes mediante servicios basados en los principios de honestidad, responsabilidad, profesionalismo, calidad y eficiencia. Su visión es convertirse en la líder indiscutible del sector de Consultoría en Tecnología de Información, proporcionando calidad de servicio y contribuyendo activamente al desarrollo de soluciones de negocio de fuentes abiertas.
+</div>
 
 # Organigrama Estructural
 
 ![ERP CyA](/assets/img/about/ERP-diagram-without-name.png)
 
 ## Departamento de Directivo
-
+<p></p>
+<div style="text-align: justify">
 Su misión es satisfacer con éxito las necesidades tecnológicas de la empresa, coordinando eficazmente todo el equipo técnico. A continuación, te presento una descripción detallada de este puesto:
+</div>
 
 Responsabilidades:
 
