@@ -21,6 +21,6 @@ En esta sección, nos gustaría presentarte la carta estructurada y la base de d
 
 ## Base de Datos
 
-![Base de Datos](/assets/img/database.jpeg)
+![Base de Datos](/assets/img/database.png)
 
 

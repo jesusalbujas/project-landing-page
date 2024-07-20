@@ -21,4 +21,4 @@ In this section, we would like to introduce you to the structured chart and data
 
 ## Database
 
-![Database](/assets/img/database.jpeg)
+![Database](/assets/img/database.png)
