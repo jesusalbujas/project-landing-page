@@ -31,7 +31,7 @@ A lo largo de los años, la empresa ha crecido y evolucionado, manteniendo su co
 # Los Líderes de ERP
 
 <div class="card-container">
-  <div class="flip-card">
+  <!-- <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
         <p class="title">Desarrollador / CEO de ERP</p>
@@ -45,7 +45,7 @@ A lo largo de los años, la empresa ha crecido y evolucionado, manteniendo su co
         </a>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="flip-card">
     <div class="flip-card-inner">

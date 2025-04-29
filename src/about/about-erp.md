@@ -24,7 +24,7 @@ Over the years, the company has grown and evolved, maintaining its commitment to
 ## ERP Leaders
 
 <div class="card-container">
-  <div class="flip-card">
+  <!-- <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
         <p class="title">Developer / CEO of ERP</p>
@@ -38,7 +38,7 @@ Over the years, the company has grown and evolved, maintaining its commitment to
         </a>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="flip-card">
     <div class="flip-card-inner">
