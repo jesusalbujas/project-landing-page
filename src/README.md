@@ -22,7 +22,7 @@ actions:
   - text: Access the system
     details: Completely developed with Javascript using Vue
     link: http://api.adempiere.io:3333/realms/adempiere/protocol/openid-connect/auth?response_type=code&redirect_uri=http%3A%2F%2Fapi.adempiere.io%3A8080%2Fwebui&state=QURfQXBwUmVnaXN0cmF0aW9uX0lEPTEwMDAwMDZ8QXBwbGljYXRpb25UeXBlPU9JQQ%3D%3D&client_id=adempiere-zk-cli&scope=openid+email+profile
-    icon: /assets/img/vue-logo-small.png
+    icon: /assets/img/AD-logo-small.png
 
 features:
   - title: About ERP Consultants and Associates
@@ -119,7 +119,7 @@ copyright: false
 footer: MIT Licensed | Copyright © 2024-present University Project
 ---
 
-This is a university project carried out in ADempiere UI <i class="fa-brands fa-vuejs" style="color: #63E6BE;"></i> using updated technologies and Keycloak as an external security platform.
+This is a university project carried out in ADempiere UI <img src="./.vuepress/public/assets/icon/logo.png" alt="ADempiere Logo" style="height: 40px; vertical-align: middle;">  using updated technologies and Keycloak as an external security platform.
 
 <!-- 
 ## 🚀Usage
