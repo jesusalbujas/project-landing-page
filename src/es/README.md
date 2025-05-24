@@ -2,8 +2,8 @@
 home: true
 icon: home
 title: Inicio
-heroImage: /assets/img/logo-menu.jpg
-heroText: Desarrollar software de Gestión de Activos.
+heroImage: /assets/img/logo-erp.png
+heroText: Sistema de Gestión de Activos.
 tagline: E.R.P. Consultores y Asociados C.A.
 actions:
   - text: C.C Buenaventura, Oficina M-6, Araure, Estado Portuguesa. Venezuela.

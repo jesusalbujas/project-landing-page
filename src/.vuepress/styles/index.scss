@@ -12,7 +12,7 @@
 
 .vp-hero-image {
     display: ruby-base;
-    max-width: 100%;
+    max-width: 38vw;
     max-height: 18rem;
     margin: 1rem;
     // padding: 10px 20px;
@@ -27,14 +27,29 @@
     // transition-property: box-shadow;
 }
 
+.vp-hero-actions{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    gap: 10px;
+    transition: transform 0.25s ease-in-out 0.12s, opacity 0.25s ease-in-out 0.12s;
+    transform: translateY(0px);
+    opacity: 1;
+}
+.vp-hero-infos {
+    z-index: 1;
+    margin: 0 0.5rem;
+    width: 62vw;
+}
+
 // .vp-hero-image {
 //     background: rgb(0,140,255);
 //     box-shadow: 0 0 1px rgb(0,140,255);
 //   }
 
 .vp-hero-image:hover {
-     box-shadow: 0 0 5px rgb(0,140,255),
-        0 0 1px rgb(0,140,255),
-        0 0 1px rgb(0,140,255),
-        0 0 100px rgb(0,140,255);
-  }
+    filter: drop-shadow(0 0 10px rgb(0,140,255));
+}

@@ -2,8 +2,8 @@
 home: true
 icon: home
 title: Home
-heroImage: /assets/img/logo-menu.jpg
-heroText: Develop Asset Management software.
+heroImage: /assets/img/logo-erp.png
+heroText: Asset Management Software.
 tagline: E.R.P. Consultores y Asociados C.A.
 actions:
   - text: C.C Buenaventura, Office M-6, Araure, Portuguesa State. Venezuela.
