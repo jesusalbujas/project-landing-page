@@ -3,7 +3,7 @@ home: true
 icon: home
 title: Home
 heroImage: /assets/img/logo-erp.png
-heroText: Asset Management Software.
+heroText: Web-Based Software Services Management System
 tagline: E.R.P. Consultores y Asociados C.A.
 actions:
   - text: C.C Buenaventura, Office M-6, Araure, Portuguesa State. Venezuela.
@@ -21,7 +21,7 @@ actions:
 
   - text: Access the system
     details: Completely developed with Javascript using Vue
-    link: http://api.adempiere.io:3333/realms/adempiere/protocol/openid-connect/auth?response_type=code&redirect_uri=http%3A%2F%2Fapi.adempiere.io%3A8080%2Fwebui&state=QURfQXBwUmVnaXN0cmF0aW9uX0lEPTEwMDAwMDZ8QXBwbGljYXRpb25UeXBlPU9JQQ%3D%3D&client_id=adempiere-zk-cli&scope=openid+email+profile
+    link: https://keycloak.erpya.com/realms/ADempiere/protocol/openid-connect/auth?response_type=code&redirect_uri=http%3A%2F%2Fapi.adempiere.io%3A8080%2Fwebui&state=QURfQXBwUmVnaXN0cmF0aW9uX0lEPTEwMDAwMDB8QXBwbGljYXRpb25UeXBlPU9JQQ%3D%3D&client_id=demo&scope=openid+email+profile
     icon: /assets/img/AD-logo-small.png
 
 features:

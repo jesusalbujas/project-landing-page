@@ -3,7 +3,7 @@ home: true
 icon: home
 title: Inicio
 heroImage: /assets/img/logo-erp.png
-heroText: Sistema de Gestión de Activos.
+heroText: Sistema de Gestión  Web para los Servicios de Software
 tagline: E.R.P. Consultores y Asociados C.A.
 actions:
   - text: C.C Buenaventura, Oficina M-6, Araure, Estado Portuguesa. Venezuela.
@@ -21,7 +21,7 @@ actions:
 
   - text: Accceder al sistema
     details: Completamente desarrollado con Javascript usando Vue
-    link: http://api.adempiere.io:3333/realms/adempiere/protocol/openid-connect/auth?response_type=code&redirect_uri=http%3A%2F%2Fapi.adempiere.io%3A8080%2Fwebui&state=QURfQXBwUmVnaXN0cmF0aW9uX0lEPTEwMDAwMDZ8QXBwbGljYXRpb25UeXBlPU9JQQ%3D%3D&client_id=adempiere-zk-cli&scope=openid+email+profile
+    link: https://keycloak.erpya.com/realms/ADempiere/protocol/openid-connect/auth?response_type=code&redirect_uri=http%3A%2F%2Fapi.adempiere.io%3A8080%2Fwebui&state=QURfQXBwUmVnaXN0cmF0aW9uX0lEPTEwMDAwMDB8QXBwbGljYXRpb25UeXBlPU9JQQ%3D%3D&client_id=demo&scope=openid+email+profile
     icon: /assets/img/AD-logo-small.png
 
 features:
